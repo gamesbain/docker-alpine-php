@@ -28,7 +28,6 @@ RUN apk --update add \
 
 COPY php-fpm.conf /etc/php7/php-fpm.conf
 
-RUN docker-php-ext-install mysqli
 
 EXPOSE 9000
 
