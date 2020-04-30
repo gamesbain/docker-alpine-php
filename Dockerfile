@@ -15,6 +15,7 @@ RUN apk --update add \
         php7-opcache \
         php7-pdo \
         php7-pdo_mysql \
+        php7-mysqli  \
         php7-posix \
         php7-session \
         php7-xml \
