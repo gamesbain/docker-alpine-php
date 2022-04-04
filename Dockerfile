@@ -24,6 +24,8 @@ RUN apk --update add \
         php7-openssl \
         php7-zlib \
         php7-xmlrpc \
+        php7-zip \
+        php7-bz2 \
     && rm -rf /var/cache/apk/*
 
 COPY php-fpm.conf /etc/php7/php-fpm.conf
